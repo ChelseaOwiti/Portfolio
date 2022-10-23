@@ -1,0 +1,96 @@
+body {	
+	background: linear-gradient(to bottom, #e9e780, #eee196, #f0ac46, #FEE140, #ee3a3a );
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body:before{
+	content:'';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #dab7eb 75%);
+}
+
+#font{
+    font-family: 'Playfair Display' ;
+
+}
+
+.navbar-nav{
+    text-align: right;
+}
+#name{
+    
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-style: bold;
+    padding-left: 3cm;
+}
+#role{
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-size:medium;
+    padding-left: 3cm;
+}
+
+
+.one{
+    background-image: url(/images/pexels-lukas-317385.jpg);
+    background-repeat: no-repeat;
+    height: 10800px;
+    
+}
+.name{
+    padding-top: 5cm;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+#skills{
+    font-family: 'Playfair';
+    text-align: center;
+    padding-top: 3cm;
+}
+#two{
+    padding-bottom: 2cm;
+    padding-top: 2cm;
+}
+.card:first-child{
+    padding-right: 1cm;
+    justify-content: space-around;
+}
+#four{
+    padding-top: 1cm;
+}
+.about{
+    font-family: Playfair Display;
+}
+#projects{
+    padding-bottom: 1cm;
+}
+
+
+/* responsive css
+@media only screen and(max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+
+}
+@media only screen and(min-width: 768px) and (max-width:991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    
+} */
