@@ -19,4 +19,4 @@ Email: chelsea.owiti@strathmore.edu
 
 
 ## License
-[MIT]()
+[MIT](https://github.com/ChelseaOwiti/Portfolio/blob/master/LICENSE)
